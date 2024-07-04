@@ -1,0 +1,340 @@
+:root{
+    --color_rojo: rgb(191,4,17);
+    --color_naranja: rgb(238,119,24);
+    --color_naranja_claro:rgb(242 146 70);
+    --color_amarillo: #fdc84a;
+    --color_blanco: rgb(255,255,255);
+    --color_negro: rgb(29, 28, 28);
+}
+
+.subheader{
+    background-color: var(--color_amarillo) !important;
+}
+
+#Top_bar{
+    background-color: var(--color_negro) !important;
+}
+
+/* INTRODUCCION PC */
+.div-intro-pc{
+    background-color: var(--color_negro);
+}
+
+/* INTRODUCCION MOBIL */
+.div-intro{
+    background-color: var(--color_negro);
+}
+
+.intro-title{
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 
+    -1.5px -1.5px 0 var(--color_rojo),  
+     1.5px -1.5px 0 var(--color_rojo),
+    -1.5px  1.5px 0 var(--color_rojo),
+     1.5px  1.5px 0 var(--color_rojo);
+}
+
+.intro-txt{
+  text-align: justify;
+  margin: 0 10%;
+  
+ 
+}
+
+.cont-intro-img{
+    background-size: cover;
+    width: 100vw;
+    height: 100px;
+    overflow: hidden;
+}
+
+.intro-img{
+    width: 100%; /* Asegura que la imagen ocupe el 100% del contenedor */
+      height: 100%; /* Asegura que la imagen ocupe el 100% del contenedor */
+      object-fit: cover; 
+      object-position: center top;
+   
+}
+.hidden-resp{
+    display: none;
+}
+
+.enfasis{
+    font-weight: 700;
+}
+
+.btn-intro{
+    background-color: var(--color_rojo) !important;
+    font-weight: 700;
+}
+
+/* MENU PIZZA FAMILIAR MOBIL */
+.menu-fam{
+    background-color: var(--color_naranja_claro);
+   padding: 10px 0;
+   background-size: 50%; /* Puedes ajustar el porcentaje según tus necesidades */
+
+}
+
+.menu-fam h2{
+    text-align: center;
+}
+
+.precios-pizza-fam{
+    color: white;
+    margin: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+
+}
+
+
+/* MENU PIZZA MOBIL */
+
+.menu-pizza{
+    width: 100vw;
+    /* background-image: url("../img/pizza-bg.jpg"); */
+    background-size: 50%;
+    background-color:var(--color_naranja_claro);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu-item{
+    width: 10rem;
+
+}
+
+.selector{
+    text-align: center;
+
+}
+
+.selector h2{
+     font-size: 30px;
+}
+
+#imgPizza {
+    transition: opacity 0.5s ease-in-out;
+}
+
+#infoPizza {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.enfasis_nar{
+    color:var(--color_naranja);
+}
+
+.enfasis_nar_cl{
+    color:var(--color_naranja_claro);
+}
+
+.enfasis_blan{
+    color:var(--color_blanco);
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
+}
+
+
+/* MENU COMBOS PIZZA INDIVIDUAL MOBIL */
+
+.titulo-combos{
+    text-align: center;
+    padding: 25px 0px;
+}
+
+/* MENU ALITAS MOBIL */
+
+.alitas{
+    text-align: center;
+}
+
+.alitas-menu{
+    box-sizing: border-box;
+    padding: 20px 0px ;
+    border: 1px solid var(--color_amarillo);
+    
+}
+
+.alas-img{
+    margin-bottom: 20px;
+}
+
+/* Burgers mobil */
+.burger-menu{
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.burger-menu-child{
+    text-align: center;
+}
+
+.burger-menu-child h3{
+    /* font-size: 20px; */
+}
+
+.burger-menu {
+    display: flex;
+    transition: all 0.3s ease; /* Agrega transición para un efecto suave */
+}
+/* 
+.burger-menu:hover .burger-menu-child {
+    transform: scale(1.2); 
+} */
+
+/* Estilos comunes para ambos elementos hijos */
+.burger-menu-child {
+    margin: 10px;
+    padding: 10px;
+   
+    text-align: center;
+}
+
+/* Agrega cualquier otro estilo específico que desees para los elementos hijos */
+.burger-menu-child img {
+    max-width: 100px; /* Limita el ancho de la imagen */
+}
+
+.fry-var{
+    /* max-width: 70vw !important; */
+    justify-content: center !important;
+    align-items: center;
+}
+
+.fry-var img{
+    width: 60vw;
+}
+
+
+.pc-hide{
+    display: none;
+}
+
+
+.pizzas-pulgas{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid var(--color_blanco); */
+ 
+}
+
+.pizzas-rebas{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid var(--color_blanco); */
+   
+}
+
+.pizzas-pulgas h2{
+   
+}
+
+.flex-pizzas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-pizzas-child{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.3s;
+}
+
+
+.flex-rebas-child{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.3s;
+}
+
+.flex-pizzas-child img{
+    width: 75%;
+}
+
+.flex-rebas-child img{
+    width: 75%;
+}
+
+
+
+.flex-pizzas-child:hover {
+    transform: scale(1.2);
+
+}
+
+.show {
+    display: block !important; /* Mostrar */
+}
+
+.hide{
+    display: none;
+}
+
+.page-select{
+    text-align: center;
+    font-size: 80px;
+    transition:all ease 0.3s;
+}
+
+.boton-page:hover{
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
+
+
+@media (max-width:500px){
+
+    .ajuste-resp{
+        padding:0 3%;
+        margin-top:-75px;
+        
+    }
+
+    .pc-hide{
+        display: block;
+    }
+    .hidden{
+        display: none !important;
+    }    
+
+    .hidden-resp{
+        display: block;
+    }
+
+    .ajuste resp{
+        padding-bottom: 0px !important;
+    }
+
+    
+    .pizzas-pulgas, .page-select{
+        display: none;
+    }
+
+}
